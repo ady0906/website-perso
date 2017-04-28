@@ -1,0 +1,23 @@
+{
+  "name": "website-perso",
+  "version": "1.0.0",
+  "description": "Personal page for Adrien Peynichou",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ady0906/website-perso.git"
+  },
+  "author": "Adrien Peynichou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ady0906/website-perso/issues"
+  },
+  "homepage": "https://github.com/ady0906/website-perso#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemailer": "^4.0.1"
+  }
+}
