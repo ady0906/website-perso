@@ -27,6 +27,10 @@ app.get("/", (request, response) => {
   response.sendFile(path.join(__dirname + './index.html'));
 });
 
+app.post("/", (req, res) => {
+  let name = req.body
+});
+
 server.listen(port, function () {
   console.log('Web app started and listening on http://localhost:' + port);
 });
