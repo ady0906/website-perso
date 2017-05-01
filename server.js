@@ -28,7 +28,7 @@ app.get("/", (request, response) => {
   response.sendFile(path.join(__dirname + './index.html'));
 });
 
-app.post("/", (req, res) => {
+app.post("/contact", (req, res) => {
   let name = req.body.name;
   let email = req.body.email;
   let message = req.body.message;
