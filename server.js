@@ -1,3 +1,4 @@
+require('dotenv').config();
 var path = require("path");
 var express = require("express");
 var fs = require('fs');
@@ -6,8 +7,8 @@ var nodemailer = require('nodemailer');
 var mg = require('nodemailer-mailgun-transport');
 var bodyParser = require('body-parser');
 var nconf = require('nconf');
-var auth = require('.config/json');
-const port = process.ENV.PORT || 8081;
+var auth = require('./config.json');
+const port = process.env.PORT || 8081;
 
 var app = express();
 var server = require('http').createServer(app);
@@ -21,6 +22,14 @@ app.use(bodyParser.json());
 var accessLogStream = fs.createWriteStream(__dirname + '/access.log', { flags: 'a' });
 app.use(logger('dev'));
 app.use(logger('combined', { stream: accessLogStream }));
+
+app.get("/", (request, response) => {
+  response.sendFile(path.join(__dirname + './index.html'));
+});
+
+server.listen(port, function () {
+  console.log('Web app started and listening on http://localhost:' + port);
+});
 
 // app.listen(3000,function(){
 // console.log("Express Started on Port 3000");
