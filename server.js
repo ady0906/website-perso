@@ -32,12 +32,34 @@ app.post("/", (req, res) => {
   let name = req.body.name;
   let email = req.body.email;
   let message = req.body.message;
-});
+  let isError = false;
+
 
 // ADD EMAIL VERIFICATION STEP BEFORE MAKING REQUEST TO SERVER
 // maybe captcha
 
-console.log(`\nContact form data: ${name} ${email} ${message}\n`);
+  console.log(`\nContact form data: ${name} ${email} ${message}\n`);
+
+  let transporter = nodemailer.createTransport(mg(auth));
+
+// set up email data
+
+  let mailOptions = {
+    from: '"Adrien Peynichou" <adrien.peynichou@gmail.com>',
+    to: 'adrien.peynichou@gmail.com',
+    subject: `website-perso message from ${email}`,
+    text: message,
+    err: isError
+  }
+
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      console.log(`\nError: ${error}`);
+    } else {
+      console.log(`\nResponse sent: ${info.response}\n`);
+    }
+  })
+});
 
 server.listen(port, function () {
   console.log('Web app started and listening on http://localhost:' + port);
