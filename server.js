@@ -37,6 +37,8 @@ app.post("/", (req, res) => {
 // ADD EMAIL VERIFICATION STEP BEFORE MAKING REQUEST TO SERVER
 // maybe captcha
 
+console.log(`\nContact form data: ${name} ${email} ${message}\n`);
+
 server.listen(port, function () {
   console.log('Web app started and listening on http://localhost:' + port);
 });
