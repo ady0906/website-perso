@@ -61,7 +61,7 @@ app.post("/contact", (req, res) => {
   })
 });
 
-server.listen(port, function () {
+server.listen(port, () => {
   console.log('Web app started and listening on http://localhost:' + port);
 });
 
