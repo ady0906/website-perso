@@ -8,6 +8,7 @@ var mg = require('nodemailer-mailgun-transport');
 var bodyParser = require('body-parser');
 var nconf = require('nconf');
 var auth = require('./config.json');
+var validator = require("email-validator");
 const port = process.env.PORT || 8081;
 
 var app = express();
@@ -28,8 +29,12 @@ app.get("/", (request, response) => {
 });
 
 app.post("/", (req, res) => {
-  let name = req.body
+  let name = req.body.name;
+  let email = req.body.email;
+  let message = req.body.message;
 });
+
+// ADD EMAIL VERIFICATION STEP BEFORE MAKING REQUEST TO SERVER
 
 server.listen(port, function () {
   console.log('Web app started and listening on http://localhost:' + port);
