@@ -1,2 +1,3 @@
 ::1 - - [01/May/2017:00:50:15 +0000] "GET /images/thumbs/02.jpg HTTP/1.1" 404 159 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
 ::1 - - [01/May/2017:23:03:03 +0000] "POST /contact HTTP/1.1" - - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+::1 - - [02/May/2017:17:39:31 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
