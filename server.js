@@ -34,10 +34,6 @@ app.post("/", (req, res) => {
   let message = req.body.message;
   let isError = false;
 
-
-// ADD EMAIL VERIFICATION STEP BEFORE MAKING REQUEST TO SERVER
-// maybe captcha
-
   console.log(`\nContact form data: ${name} ${email} ${message}\n`);
 
   let transporter = nodemailer.createTransport(mg(auth));
