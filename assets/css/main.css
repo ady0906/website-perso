@@ -11,13 +11,32 @@
 
 /* Personal settings */
 
-
 .svgskills {
 	height: 78px;
 }
 
 .bottomrow {
 	margin-top: 4%;
+}
+
+#sendmessage {
+	color: #169b48 !important;
+	border-color: #169b48 !important;
+}
+
+#sendmessage:hover {
+	color: white !important;
+	background-color: #169b48 !important;
+}
+
+#resetform {
+	color: #f44336 !important;
+	border-color: #f44336 !important;
+}
+
+#resetform:hover {
+	color: white !important;
+	background-color: #f44336 !important;
 }
 
 /* Factory settings */
