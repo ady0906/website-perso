@@ -51,10 +51,10 @@ app.post("/", (req, res) => {
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.log(`\nError: ${error}`);
-      res.render('/');
+      // res.redirect('back');
     } else {
       console.log(`\nResponse sent: success\n`);
-      res.render('/');
+      // res.redirect('back');
     }
   })
 });
