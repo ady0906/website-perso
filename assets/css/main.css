@@ -43,6 +43,17 @@
 	font-size: 110%;
 }
 
+#chattyrepos {
+	font-size: 85%;
+}
+
+.flags {
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-top: -4.5%;
+}
+
 /* Factory settings */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2610,6 +2621,7 @@
 
 	#main {
 		margin-left: 35%;
+		margin-top: -4% !important;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
