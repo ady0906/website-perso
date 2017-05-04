@@ -8,20 +8,22 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-		<script>
-			function validate(form) {
+  	<link rel="stylesheet" href="node_modules/sweetalert/dist/sweetalert.css">
 
-			    let valid = true;
-
-			    if(!valid) {
-			        alert('Please correct the errors in the form!');
-			        return false;
-			    }
-			    else {
-			        return confirm('Do you really want to submit the form?');
-			    }
-			}
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="node_modules/sweetalert/dist/sweetalert.min.js"></script>
+			<script>
+  			function success() {
+					return sweetAlert("All done!", "Your message has been sent.", "success");
+				}
 			</script>
+
 
 	</head>
 	<body id="top">
@@ -153,7 +155,7 @@
 						<p>Want to work together? Any questions you would like to ask? Shoot me a message and I'll be in touch within two business days or less.</p>
 						<div class="row">
 							<div class="8u 12u$(small)">
-								<form method="post" action="/" id="contactform" onsubmit="return validate(this);">
+								<form method="post" action="/" id="contactform" onsubmit="success()">
 									<div class="row uniform 50%">
 										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" required/></div>
 										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" required/></div>
@@ -521,14 +523,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						</ul>
 				</div>
 			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
