@@ -28,6 +28,10 @@ app.get("/", (request, response) => {
   response.sendFile(path.join(__dirname + './index.html'));
 });
 
+app.get("/fr", (request, response) => {
+  response.sendFile(path.join(__dirname + './indexfr.html'));
+});
+
 app.post("/", (req, res) => {
   let name = req.body.name;
   let email = req.body.email;
