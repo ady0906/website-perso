@@ -29,7 +29,7 @@ app.get("/", (request, response) => {
 });
 
 app.get("/fr", (request, response) => {
-  response.sendFile(path.join(__dirname + './indexfr.html'));
+  response.sendFile(path.join(__dirname + '/views/indexfr.html'));
 });
 
 app.post("/", (req, res) => {
