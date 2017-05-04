@@ -20,6 +20,16 @@
 			<script src="node_modules/sweetalert/dist/sweetalert.min.js"></script>
 			<script>
 
+			function rickJames() {
+				return sweetAlert({
+					title: "Hey you !",
+					imageUrl: "images/rickjames.gif",
+					imageSize: "300x300",
+					timer: 3000,
+					showConfirmButton: false
+				})
+			}
+
 			function success() {
 				return sweetAlert('All done!', 'Your message has been sent', 'success');
 			}
@@ -33,7 +43,7 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<a href="#" onclick="rickJames()" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
 					<h1><strong>My name is Adrien</strong>,<br />
 					full-stack web developer<br />
 					based out of Toronto.<br /></h1>
@@ -521,7 +531,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<li><a href="mailto:adrien.peynichou@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Adrien Peynichou</li>
+							<li>&copy; Adrien Peynichou &nbsp;|&nbsp; 2017</li>
 						</ul>
 				</div>
 			</footer>
