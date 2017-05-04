@@ -6,9 +6,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<script>
+			function validate(form) {
+
+			    let valid = true;
+
+			    if(!valid) {
+			        alert('Please correct the errors in the form!');
+			        return false;
+			    }
+			    else {
+			        return confirm('Do you really want to submit the form?');
+			    }
+			}
+			</script>
+
 	</head>
 	<body id="top">
 
@@ -124,7 +138,7 @@
 							<article class="6u$ 12u$(xsmall) work-item">
 								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
 								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>								
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 
 							</article>
 						</div>
@@ -139,7 +153,7 @@
 						<p>Want to work together? Any questions you would like to ask? Shoot me a message and I'll be in touch within two business days or less.</p>
 						<div class="row">
 							<div class="8u 12u$(small)">
-								<form method="post" action="/" id="contactform">
+								<form method="post" action="/" id="contactform" onsubmit="return validate(this);">
 									<div class="row uniform 50%">
 										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" required/></div>
 										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" required/></div>
@@ -509,7 +523,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</footer>
 
 		<!-- Scripts -->
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
