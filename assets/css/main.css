@@ -150,12 +150,34 @@ iPad 3
 }
 
 /* iPhone 6+ ----------- */
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 3) {
+	.flags {
+		margin-top: 0% !important;
+	}
+	.svgskills {
+		margin-left: 2.1% !important;
+		margin-bottom: 6%;
+	}
+	.bottomrow {
+		margin-top: 0% !important;
+	}
+	#one {
+		margin-top: 3% !important;
+	}
 }
 
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (device-width : 414px) and (device-height : 736px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 3) and (-webkit-device-pixel-ratio : 3){
+	.flags {
+		margin-left: 4% !important;
+		margin-top: 2% !important;
+	}
+	.bottomrow {
+		margin-top: 0% !important;
+	}
+	.svgskills {
+		margin-left: 6.5% !important;
+		margin-bottom: 6%;
+	}
 }
 
 /* Samsung Galaxy S3 ----------- */
