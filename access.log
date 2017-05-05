@@ -166,3 +166,5 @@
 ::1 - - [05/May/2017:22:03:34 +0000] "GET /fr HTTP/1.1" 304 - "-" "Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
 ::1 - - [05/May/2017:22:03:37 +0000] "GET /fr HTTP/1.1" 304 - "-" "Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
 ::1 - - [05/May/2017:22:03:42 +0000] "GET /fr HTTP/1.1" 304 - "-" "Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+::1 - - [05/May/2017:22:10:24 +0000] "GET /fr HTTP/1.1" 304 - "-" "Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+::1 - - [05/May/2017:22:11:19 +0000] "GET /fr HTTP/1.1" 200 70705 "http://localhost:8080/" "Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
