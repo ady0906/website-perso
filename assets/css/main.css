@@ -28,7 +28,7 @@
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-/* Styles */
+
 }
 
 /* iPads (landscape) ----------- */
@@ -38,7 +38,17 @@
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-/* Styles */
+	.flags {
+		margin-right: -5% !important;
+		padding-left: 0.5%;
+	}
+	.svgskills {
+		margin-left: 0.2%;
+		margin-bottom: 4%;
+	}
+	.bottomrow {
+		margin-top: 0% !important;
+	}
 }
 /**********
 iPad 3
@@ -71,26 +81,60 @@ iPad 3
 
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-
+	.flags {
+		margin-top: 0% !important;
+	}
+	.svgskills {
+		margin-left: 12%;
+		margin-bottom: 4%;
+	}
+	.bottomrow {
+		margin-top: 0% !important;
+	}
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 	.flags {
-		padding-left: 5% !important;
+		padding-left: 4% !important;
+		margin-right: -5% !important;
 	}
 	.svgskills {
-		margin-left: 10%;
-		margin-bottom: 4%;
+		margin-left: 12%;
+		margin-bottom: 6%;
+	}
+	.bottomrow {
+		margin-top: 0% !important;
 	}
 }
 
 /* iPhone 6 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
+	.flags {
+		margin-top: 0% !important;
+		margin-right: -2% !important;
+	}
+	.svgskills {
+		margin-left: 3.5%;
+		margin-bottom: 6%;
+	}
+	#one {
+		margin-top: 2% !important;
+	}
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
+	.flags {
+		padding-left: 4% !important;
+		margin-right: -4% !important;
+		margin-top: -4% !important;
+	}
+	.svgskills {
+		margin-left: 4%;
+		margin-bottom: 6%;
+	}
+	.bottomrow {
+		margin-top: 0% !important;
+	}
 }
 
 /* iPhone 6+ ----------- */
