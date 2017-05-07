@@ -62,6 +62,24 @@
 		margin-top: 0% !important;
 	}
 }
+
+/**********
+iPad mini
+**********/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1)  {
+	.svgskills {
+ 	 margin-left: 3.6% !important;
+  }
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1)  {
+	.svgskills {
+		margin-left: 3.1% !important;
+	}
+}
+
 /**********
 iPad 3
 **********/
@@ -88,13 +106,14 @@ iPad 3
 		margin-left: 2.6% !important;
 	}
 	.flags {
-		padding-left: 1.8%;		
+		padding-left: 1.8%;
+		margin-left: 4%;
 	}
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation:portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
 	.svgskills {
-		margin-left: 0% !important;
+		margin-left: -1.5% !important;
 	}
 }
 
@@ -194,7 +213,7 @@ iPad 3
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 	.svgskills {
-		margin-left: 2.9% !important;
+		margin-left: 2.9%;
 		margin-bottom: 5%;
 	}
 	.flags {
@@ -215,11 +234,23 @@ iPad 3
 
 /* Samsung Galaxy S5 ----------- */
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
+	.flags {
+		margin-top: -2.5% !important;
+		margin-right: -1% !important;
+		padding-left: 1%;
+	}
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-/* Styles */
+	.svgskills {
+		margin-left: 2.98% !important;
+		margin-bottom: 3.2%;
+	}
+
+	.flags {
+		padding-left: 3.5%;
+		margin-right: -4% !important;
+	}
 }
 
 /* Personal settings */
@@ -344,6 +375,10 @@ iPad 3
     top: 5px;
 }
 
+/*.fa-arrow-circle-up {
+
+	font-size: 250%;
+}*/
 
 /* Factory settings */
 
