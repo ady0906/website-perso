@@ -1,12 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
-/*
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
 
 /* Responsive personal settings */
@@ -29,6 +23,17 @@
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
+}
+
+/* iPad (pro) ----------- */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : landscape) {
+
+}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : portrait) {
+	.personals {
+		font-size: 90%;
+	}
 }
 
 /* iPads (landscape) ----------- */
@@ -69,7 +74,7 @@ iPad mini
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 1)  {
 	.svgskills {
- 	 margin-left: 3.6% !important;
+ 	 margin-left: 3% !important;
   }
 }
 
@@ -103,7 +108,7 @@ iPad 3
 /* iPhone 4 ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
 	.svgskills {
-		margin-left: 2.6% !important;
+		margin-left: 3% !important;
 	}
 	.flags {
 		padding-left: 1.8%;
@@ -113,18 +118,21 @@ iPad 3
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
 	.svgskills {
-		margin-left: -1.5% !important;
+		margin-left: 3% !important;
+		margin-bottom: 4% !important;
 	}
 }
 
 /* iPhone 5 ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) {
 	.flags {
 		margin-top: 0% !important;
+		margin-right: -1.5% !important;
+		padding-left: 1.4%;
 	}
 	.svgskills {
-		margin-left: 12%;
-		margin-bottom: 4%;
+		margin-left: 4% !important;
+		margin-bottom: 2% !important;
 	}
 	.bottomrow {
 		margin-top: 0% !important;
@@ -134,10 +142,10 @@ iPad 3
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 	.flags {
 		padding-left: 4% !important;
-		margin-right: -5% !important;
+		margin-right: -4% !important;
 	}
 	.svgskills {
-		margin-left: 12%;
+		margin-left: -1.2% !important;
 		margin-bottom: 6%;
 	}
 	.bottomrow {
@@ -148,12 +156,12 @@ iPad 3
 /* iPhone 6 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
 	.flags {
-		margin-top: 0% !important;
-		margin-right: -2% !important;
+		margin-top: -2.2% !important;
+		margin-right: -1.8% !important;
 	}
 	.svgskills {
-		margin-left: 3.5%;
-		margin-bottom: 6%;
+		margin-left: 3.8% !important;
+		margin-bottom: 2% !important;
 	}
 	#one {
 		margin-top: 2% !important;
@@ -162,12 +170,12 @@ iPad 3
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 	.flags {
-		padding-left: 4% !important;
+		padding-left: 2% !important;
 		margin-right: -4% !important;
-		margin-top: -4% !important;
+		margin-top: 0% !important;
 	}
 	.svgskills {
-		margin-left: 4%;
+		margin-left: 4% !important;
 		margin-bottom: 6%;
 	}
 	.bottomrow {
@@ -196,6 +204,7 @@ iPad 3
 	.flags {
 		margin-left: 4% !important;
 		margin-top: 2% !important;
+		padding-left: 1.5% !important;
 	}
 	.bottomrow {
 		margin-top: 0% !important;
@@ -208,18 +217,23 @@ iPad 3
 
 /* Samsung Galaxy S3 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
+	.flags {
+		margin-top: 0%;
+	}
+	.svgskills {
+		margin-left: 6% !important;
+	}
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 	.svgskills {
-		margin-left: 2.9%;
+		margin-left: 12% !important;
 		margin-bottom: 5%;
 	}
 	.flags {
 		padding-left: 3%;
 		margin-left: 6% !important;
-		margin-top: 0% !important;
+		margin-top: -4% !important;
 	}
 }
 
@@ -235,7 +249,7 @@ iPad 3
 /* Samsung Galaxy S5 ----------- */
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
 	.flags {
-		margin-top: -2.5% !important;
+		margin-top: -1.5% !important;
 		margin-right: -1% !important;
 		padding-left: 1%;
 	}
@@ -249,9 +263,12 @@ iPad 3
 
 	.flags {
 		padding-left: 3.5%;
-		margin-right: -4% !important;
+		margin-right: -5% !important;
 	}
 }
+
+/* Nexus 5x */
+
 
 /* Personal settings */
 
@@ -375,11 +392,10 @@ iPad 3
     top: 5px;
 }
 
-/*.fa-arrow-circle-up {
-
-	font-size: 250%;
-}*/
-
+#intro {
+	margin-top: 2%;
+	font-size: 125%;
+}
 /* Factory settings */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
