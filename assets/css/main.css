@@ -5,6 +5,12 @@
 
 /* Responsive personal settings */
 
+@media all and (min-width: 980px) and (max-width: 1280px){
+	#footerstuff{
+		margin-bottom: -12%;
+	}
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
@@ -165,7 +171,7 @@ iPad 3
 	}
 	#one {
 		margin-top: 2% !important;
-	}	
+	}
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
