@@ -84,11 +84,18 @@ iPad 3
 
 /* iPhone 4 ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-/* Styles */
+	.svgskills {
+		margin-left: 2.6% !important;
+	}
+	.flags {
+		padding-left: 1.8%;		
+	}
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-/* Styles */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation:portrait) {
+	.svgskills {
+		margin-left: 0% !important;
+	}
 }
 
 /* iPhone 5 ----------- */
