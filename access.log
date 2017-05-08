@@ -207,3 +207,4 @@
 ::1 - - [05/May/2017:23:46:01 +0000] "GET /fr HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
 ::1 - - [07/May/2017:14:37:22 +0000] "GET /fr HTTP/1.1" 200 70705 "http://localhost:8080/" "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
 ::1 - - [08/May/2017:15:54:26 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/601.4.4 (KHTML, like Gecko) Version/9.0.3 Safari/601.4.4"
+::1 - - [08/May/2017:16:58:52 +0000] "GET /fr HTTP/1.1" 200 70998 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"
