@@ -55,10 +55,8 @@ app.post("/", (req, res) => {
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.log(`\nError: ${error}`);
-      // res.redirect('back');
     } else {
-      console.log(`\nResponse sent: success\n`);
-      // res.redirect('back');
+      console.log(`\nResponse sent: success\n`);      
     }
   })
 });
@@ -66,7 +64,3 @@ app.post("/", (req, res) => {
 server.listen(port, () => {
   console.log('Web app started and listening on http://localhost:' + port);
 });
-
-// app.listen(3000,function(){
-// console.log("Express Started on Port 3000");
-// });
