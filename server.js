@@ -7,7 +7,12 @@ var nodemailer = require('nodemailer');
 var mg = require('nodemailer-mailgun-transport');
 var bodyParser = require('body-parser');
 var nconf = require('nconf');
-var auth = require('./config.json');
+var auth = {
+  "auth": {
+    "api_key": process.env.API_KEY,
+    "domain": process.env.DOMAIN
+  }
+};
 var validator = require("email-validator");
 const port = process.env.PORT || 8081;
 
@@ -56,7 +61,7 @@ app.post("/", (req, res) => {
     if (error) {
       console.log(`\nError: ${error}`);
     } else {
-      console.log(`\nResponse sent: success\n`);      
+      console.log(`\nResponse sent: success\n`);
     }
   })
 });
