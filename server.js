@@ -13,7 +13,6 @@ var auth = {
     "domain": process.env.DOMAIN
   }
 };
-var validator = require("email-validator");
 const port = process.env.PORT || 8081;
 
 var app = express();
