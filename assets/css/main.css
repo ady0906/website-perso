@@ -304,8 +304,8 @@ iPad 3
 	background-color: #f44336 !important;
 }
 
-#personalblurb {
-	font-size: 110%;
+.personalblurb {
+	font-size: 115%;
 }
 
 #chattyrepos {
