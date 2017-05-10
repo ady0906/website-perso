@@ -294,12 +294,24 @@ iPad 3
 	background-color: #169b48 !important;
 }
 
+#sendmessage:focus {
+	outline: 0;
+	color: white !important;
+	background-color: #169b48 !important;
+}
+
 #resetform {
 	color: #f44336 !important;
 	border-color: #f44336 !important;
 }
 
 #resetform:hover {
+	color: white !important;
+	background-color: #f44336 !important;
+}
+
+#resetform:focus {
+	outline: 0;
 	color: white !important;
 	background-color: #f44336 !important;
 }
