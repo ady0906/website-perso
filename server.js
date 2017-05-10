@@ -51,7 +51,7 @@ app.post("/", (req, res) => {
   let mailOptions = {
     from: '"Adrien Peynichou" <adrien.peynichou@gmail.com>',
     to: 'adrien.peynichou@gmail.com',
-    subject: `website-perso message from ${email}`,
+    subject: `website-perso message from ${name} (${email})`,
     text: message,
     err: isError
   }
