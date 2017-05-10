@@ -2762,6 +2762,12 @@ iPad 3
 			color: #007ECB !important;
 		}
 
+		.button:focus {
+			outline: 0;
+			border-color: #007ECB;
+			color: #007ECB !important;
+		}
+
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
