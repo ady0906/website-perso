@@ -2894,11 +2894,13 @@ iPad 3
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #C4DEEC;
-		background-attachment: scroll,								fixed;
+		background-attachment: fixed !important;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left,							top left;
+		/*background-position: top left,							top left;*/
+		background-position: center;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								auto 100%;
+		background-size: auto;
+		/*background-size: auto 100%;*/
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -3342,7 +3344,7 @@ iPad 3
 		/* Header */
 
 			#header {
-				background-attachment: scroll;
+				background-attachment: fixed;
 				background-position: top left, center center;
 				background-size: auto,		cover;
 				left: auto;
@@ -3365,7 +3367,7 @@ iPad 3
 		/* Footer */
 
 			#footer {
-				background-attachment: scroll;
+				background-attachment: fixed;
 				background-color: #1f1815;
 				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
