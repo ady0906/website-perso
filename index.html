@@ -50,6 +50,7 @@
 				sweetAlert('All done!', 'Your message has been sent', 'success');
 				// document.getElementById("contactform").reset();
 			}
+
 			</script>
 
 
@@ -189,8 +190,8 @@
 							</div>
 							<br>
 							<ul class="actions">
-								<li><input type="submit" value="Send Message" id="sendmessage"/></li>
-								<li><input type="reset" value="Reset Form" id="resetform"></li>
+								<li><input type="submit" value="Send Message" id="sendmessage" onclick="this.blur()"/></li>
+								<li><input type="reset" value="Reset Form" id="resetform" onclick="this.blur()"></li>
 							</ul>
 						</form>
 					</div>
