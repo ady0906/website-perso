@@ -135,6 +135,7 @@
 	   			$form.submit(function(){
 	    			$.post($(this).attr('action'), $(this).serialize(), function(response){
 	            console.log('success');
+							// $("#contactform")[0].reset();
 	    			},'json');
 	      		return false;
 	   			});
