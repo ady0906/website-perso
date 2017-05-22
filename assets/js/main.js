@@ -1,9 +1,3 @@
-/*
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	var settings = {
@@ -134,7 +128,7 @@
 	   			var $form = $('form');
 	   			$form.submit(function(){
 	    			$.post($(this).attr('action'), $(this).serialize(), function(response){
-						console.log('success');							
+						console.log('success');
 	    			},'json');
 						$("#contactform")[0].reset();
 	      		return false;
