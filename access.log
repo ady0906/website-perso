@@ -248,3 +248,4 @@
 ::1 - - [30/Oct/2017:10:49:30 +0000] "GET /fr HTTP/1.1" 200 10051 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36"
 ::1 - - [30/Oct/2017:10:49:48 +0000] "GET /fr HTTP/1.1" 200 10051 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36"
 ::1 - - [30/Oct/2017:10:56:38 +0000] "GET /fr HTTP/1.1" 200 9985 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36"
+::1 - - [30/Oct/2017:11:08:55 +0000] "GET /fr HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36"
